@@ -179,7 +179,7 @@ namespace Shopee_Autobuy_Bot.Services
         {
             try
             {
-                string pageUrl = "https://shopee.com.my/cart";
+                string pageUrl = "https://shopee.com.th/cart";
                 _seleniumService.WaitUrlContainString(pageUrl);
                 _autoBuyLoggerService.AutoBuyProcessLog("Cart page loaded.", Color.DarkGreen, true, true, true);
                 //Thread.Sleep(ConfigInfo.delay_step_96);
